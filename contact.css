@@ -1,0 +1,117 @@
+input::-webkit-input-placeholder, textarea::-webkit-input-placeholder {
+  color: #39ff14;
+  font-size: 0.875em;
+}
+
+input:focus::placeholder, textarea::focus:placeholder {
+  color: #39ff14;
+}
+
+input::-ms-placeholder, textarea::-ms-placeholder {
+  color: #39ff14;
+  font-size: 0.875em;
+}
+
+/* on hover placeholder */
+
+input:hover::placeholder, textarea:hover::placeholder {
+  color: white;
+  font-size: 0.875em;
+}
+
+input:hover:focus::-ms-placeholder, textarea:hover::focus:-ms-placeholder {
+  color: #39ff14;
+}
+
+body {
+    font-family: 'Ubuntu Mono', regular;
+    color: #39ff14;
+}
+
+
+#form {
+  position: relative;
+  width: 500px;
+  margin: 250px auto 100px auto;
+}
+
+input {
+  font-family: 'Lato', sans-serif;
+  font-size: 0.875em;
+  width: 470px;
+  height: 50px;
+  padding: 0px 15px 0px 15px;
+  
+  background: transparent;
+  outline: none;
+  color: #39ff14;
+  
+  border: solid 1px #39ff14;
+  border-bottom: none;
+  
+  transition: all 0.3s ease-in-out;
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  -ms-transition: all 0.3s ease-in-out;
+}
+
+input:hover {
+  color: white;
+}
+
+textarea {
+  width: 470px;
+  max-width: 470px;
+  height: 110px;
+  max-height: 110px;
+  padding: 15px;
+  
+  background: transparent;
+  outline: none;
+  
+  color: #39ff14;
+  font-family: 'Lato', sans-serif;
+  font-size: 0.875em;
+  
+  border: solid 1px #39ff14;
+  
+  transition: all 0.3s ease-in-out;
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  -ms-transition: all 0.3s ease-in-out;
+}
+
+textarea:hover {
+  color: white;
+}
+
+#submit {
+  width: 502px;
+  
+  padding: 0;
+  margin: -5px 0px 0px 0px;
+  
+  font-family: 'Lato', sans-serif;
+  font-size: 0.875em;
+  color: #39ff14;
+  
+  outline:none;
+  cursor: pointer;
+  
+  border: solid 1px #39ff14;
+  border-top: none;
+}
+
+#submit:hover {
+  color: white;
+}
+
+footer{
+    color: #39ff14;
+    position:absolute;
+    bottom:0;
+    width:100%;
+    height:50px;
+    margin-top: 5%;
+    background:#404040;
+}

@@ -1,0 +1,101 @@
+body,html{
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    font-family: 'Ubuntu Mono', regular;
+}
+
+body::-webkit-scrollbar {
+    width: 0.75em;
+}
+   
+body::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 6px black;
+  }
+   
+body::-webkit-scrollbar-thumb {
+    background-color: darkgrey;
+    outline: 1px solid slategrey;
+  }
+
+header{
+    width: 100%;
+    height: 70px;
+    background-color: #404040;
+}
+
+footer{
+    color: #39ff14;
+    position:absolute;
+    bottom:auto;
+    width:100%;
+    height:50px;
+    margin-top: 5%;
+    background:#404040;
+}
+
+#footer-text{
+    position: absolute;
+    padding: 3px;
+    float: left;
+    margin-left: 2%;
+    margin-top: 15px;
+    color: #39ff14;
+}
+
+h1{
+    position: absolute;
+    padding: 3px;
+    float: left;
+    margin-left: 2%;
+    margin-top: 15px;
+    color: #39ff14;
+}
+
+h2{
+    color: #39ff14;
+    margin-top: 40px;
+    margin-bottom: 5px;
+    text-align: center;
+}
+
+ul{
+    width: auto;
+    float: right;
+    margin-top: 8px;
+}
+
+li{
+    display: inline-block;
+    padding: 15px 15px;
+}
+
+a{
+    text-align: center;
+    color: #39ff14;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+a:hover{
+    color: white;
+    transition: 0.3s;
+}
+
+#project-list{
+    border: 2px solid;
+    padding: 20px; 
+    width: 450px;
+    overflow: auto;
+    color: #39ff14;
+    margin: auto;
+    margin-top: 5%;
+    background-color: rgb(46, 46, 46);
+    text-align: center;
+}
+
+#project-title{
+    text-align: center;
+    color: #39ff14;
+    font-size: 20px;
+}
